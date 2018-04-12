@@ -1,0 +1,107 @@
+body {
+  background-color: grey;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  height: 48px;
+  width: 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-style: solid;
+}
+
+button:hover {
+  background-color: #252525;
+  color: white;
+}
+
+button:disabled {
+  color: grey;
+  background-color: grey;
+}
+
+#main-container {
+  margin: 0 auto;
+  width: 400px;
+  height: 250px;
+  background-color: #45566E;
+  margin-top: 200px;
+}
+
+#main-container h1 {
+  text-align: center;
+  font-family: verdana;
+  color: white;
+}
+
+#green-light {
+  float: left;
+  width: 50%;
+  height: 10%;
+  background-color: green;
+}
+
+#red-light {
+  float: right;
+  width: 50%;
+  height: 10%;
+  background-color: red;
+}
+
+#buttons {
+  margin: 0 auto;
+}
+
+#correctincorrect {
+  text-align: center;
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+
+#number-container {
+  margin: 0 auto;
+}
+
+#number1 {
+  position: absolute;
+  top: 325px;
+  float: left;
+  margin-left: 102px;
+}
+
+#number2 {
+  position: absolute;
+  top: 325px;
+  float: left;
+  margin-left: 176px;
+}
+
+#number3 {
+  position: absolute;
+  top: 325px;
+  float: left;
+  margin-left: 250px;
+}
+
+#correctincorrect {
+  position: absolute;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
+#showinput {
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 185px;
+  font-size: 18px;
+}
+
+#counterTry {
+  margin-top: 155px;
+  text-align: center;
+}

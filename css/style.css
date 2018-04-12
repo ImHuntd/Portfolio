@@ -1,0 +1,63 @@
+body {
+  background-image: url("../img/background.png.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.logo {
+  background-image: url("../img/logo.png");
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+
+#navigationbar{
+  background-color: black;
+  font-size: 50px;
+  height: 110px;
+}
+
+#game-img{
+  width: 35%;
+  margin-top: 15px;
+  margin-right: 70px;
+}
+
+.link-home {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.link-portfolio {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.link-contact {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.link-about {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+#twitch-img {
+  margin-top: 20px;
+  width: 330px;
+  height: 245px;
+}
+
+#game-btn {
+  width: 35%;
+}
+
+#searchbar {
+  border: black;
+}
+
+#textarea {
+  width: 210px;
+}
